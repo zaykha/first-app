@@ -1,0 +1,58 @@
+<ion-header>
+ 
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list color="success">
+    <ion-item color="success">
+      <ion-avatar slot="start">
+        <img src="https://cdn-icons.flaticon.com/png/512/2202/premium/2202112.png?token=exp=1647329200~hmac=d88c6a182ef1f496939e48bf14930c52" alt="DON PAUBLO">
+      </ion-avatar>
+      <ion-label>
+        <h1>Don Paublo</h1>
+        <h2>Agent ID: G0486806R</h2>
+        <h3>Assignment: <span>Operation TailWind</span></h3>
+        <h3>Allocated Time: <span>NA</span></h3>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <app-task status="ongoing"></app-task>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle color="medium">
+        Last Mission update
+      </ion-card-subtitle>
+    </ion-card-header>
+<ion-card-content>
+    <ion-item lines="none">
+      <ion-icon name="checkmark-done-outline" slot="start" color="success"></ion-icon>
+    <ion-label>
+      Info gathering (Basics)
+      <p>Commencement: 01/11/2020 00:00:30</p>
+      <p>Accomplishment: 22/02/2021 00:00:02</p>
+    </ion-label>
+    
+    <ion-button size="small">
+      <ion-icon name="document-outline"></ion-icon>
+    </ion-button>
+  </ion-item>
+</ion-card-content>
+  </ion-card>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="success">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
