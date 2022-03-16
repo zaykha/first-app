@@ -5,3 +5,12 @@ ion-list {
 p {
     white-space: normal;
 }
+
+.imGcontainer {
+    width:100% !important;  
+    height : 100% !important;  
+    max-width: 80px !important;  //any size
+    max-height: 90px !important; //any size 
+    
+    white-space: normal;  
+}
